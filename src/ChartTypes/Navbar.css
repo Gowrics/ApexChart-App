@@ -1,0 +1,39 @@
+/* Navbar.css */
+
+nav {
+    background-color: #247BA0; /* Background color */
+    padding: 1rem 2rem; /* Add padding for a more spacious feel */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Add subtle shadow for depth */
+}
+
+nav ul {
+    list-style: none; /* Remove bullet points */
+    padding: 0;
+    margin: 0;
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-around; /* Space out items evenly */
+}
+
+nav li {
+    margin: 0 0px; /* Add space between items */
+}
+
+nav a {
+    text-decoration: none; /* Remove underline */
+    color: white; /* Change text color */
+    font-weight: bold; /* Make text bold */
+    transition: color 0.3s ease, transform 0.3s ease; /* Transition for color and scale */
+    padding: 10px 15px; /* Add padding around links for better click area */
+    border-radius: 5px; /* Add rounded corners */
+}
+
+nav a:hover {
+    color: #FF1654; /* Change color on hover */
+    transform: scale(1.05); /* Slightly scale up the link on hover */
+    background-color: rgba(255, 22, 84, 0.2); /* Add a background on hover */
+}
+
+nav a.active {
+    color: #FF1654; /* Color for active link */
+    border-bottom: 2px solid #FF1654; /* Underline active link */
+}

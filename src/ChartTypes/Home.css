@@ -1,0 +1,21 @@
+/* Home.css */
+
+.home {
+    text-align: center; /* Center the text */
+    padding: 20px; /* Add some padding */
+    background-color: #f4f4f4; /* Light background color */
+  }
+  
+  .home h1 {
+    color: #247BA0; /* Change the heading color */
+  }
+  
+  .home ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+  }
+  
+  .home li {
+    margin: 5px 0; /* Add margin between list items */
+  }
+  
